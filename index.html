@@ -1,22 +1,165 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph</title>
+    <title>Joseph Martinez · Graphic Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Joseph Portfolio </h1>
-<h2>I'm a Graphic Designer</h2>
-<hr/> 
-<h3><a href="./public/Movie ranking6.html">Movie Ranking Project</a></h3>
-<img src="./assets/images/Movie6.png" height="200"/>
-<h3><a href="./public/Birthday6.html">Birthday Project</a> </h3>
-<img src="./assets/images/Birthday6.png" height="200"/>
-<hr/>
+    <div class="container">
+        <nav>
+            <a class="logo" href="#top">Joseph Martinez</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
 
-<a href="./public/about.html">About me </a>
-<a href="./public/contact.html">Contact me </a>
+    <header class="hero" id="top">
+        <div class="container hero-content">
+            <div>
+                <span class="badge">Graphic Designer</span>
+                <h1>Creating visual identities that speak louder than words.</h1>
+                <p>
+                    I help visionary brands turn complex ideas into bold, memorable visuals.
+                    From typography-driven logos to immersive campaign assets, every design is crafted
+                    to communicate with clarity and charisma.
+                </p>
+                <div class="cta-buttons">
+                    <a class="btn btn-primary" href="#portfolio">View portfolio</a>
+                    <a class="btn btn-outline" href="#contact">Book a discovery call</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/images/Movie6.png" alt="Poster design mockups by Joseph Martinez">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">Design with strategy, storytelling, and soul.</h2>
+                <p class="section-intro">
+                    Hey, I’m Joseph—an independent graphic designer blending illustration, typography, and motion-inspired
+                    layouts to help brands stand out. With seven years of experience collaborating with agencies, startups,
+                    and artists, I translate your ideas into visual systems that feel as good as they look.
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">Signature services</h2>
+                <p class="section-intro">Everything you need to build a magnetic brand presence across digital and print touchpoints.</p>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <h3>Brand Identity Systems</h3>
+                        <p>Logo suites, color palettes, typography pairings, and guidelines that capture your voice and scale with your business.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Digital &amp; Social Campaigns</h3>
+                        <p>Launch-ready visuals for social media, pitch decks, and paid campaigns designed to convert scrolls into clicks.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Editorial &amp; Print Design</h3>
+                        <p>Immersive layouts for magazines, posters, packaging, and event collateral that leave a tangible impression.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Selected work</h2>
+                <p class="section-intro">A snapshot of recent collaborations that combine concept-driven thinking with polished execution.</p>
+                <div class="portfolio-grid">
+                    <article class="portfolio-card">
+                        <img src="assets/images/Movie6.png" alt="Stylized movie poster ranking project">
+                        <h3>Movie Universe Moodboard</h3>
+                        <p>Illustrated posters exploring cinematic worlds through bold color, layered textures, and custom lettering.</p>
+                        <a href="public/Movie ranking6.html">View project →</a>
+                    </article>
+                    <article class="portfolio-card">
+                        <img src="assets/images/Birthday6.png" alt="Vibrant birthday invitation layout">
+                        <h3>Neon Nights Invitation</h3>
+                        <p>Print-ready celebration collateral with a radiant palette, expressive gradients, and playful iconography.</p>
+                        <a href="public/Birthday6.html">View project →</a>
+                    </article>
+                    <article class="portfolio-card">
+                        <div style="height: 200px; display: grid; place-items: center; background: rgba(15,23,42,0.6); border-radius: 1rem; border: 1px solid rgba(255,255,255,0.08);">
+                            <span style="color: var(--muted); font-weight: 600; letter-spacing: 0.06em;">More coming soon</span>
+                        </div>
+                        <h3>Passion Projects</h3>
+                        <p>Personal explorations in typography, poster art, and kinetic graphics currently in development.</p>
+                        <a href="#contact">Request a preview →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="section-title">Client love</h2>
+                <p class="section-intro">Collaborators share what it’s like to bring their ideas to life together.</p>
+                <div class="testimonial-grid">
+                    <article class="testimonial-card">
+                        <p>“Joseph took our fragmented brand story and transformed it into a cohesive identity that finally feels like us.”</p>
+                        <strong>— Aisha Gomez, Founder · Prism Creative Studio</strong>
+                    </article>
+                    <article class="testimonial-card">
+                        <p>“From first sketch to final delivery, the process was thoughtful, strategic, and lightning fast. Our launch visuals turned heads.”</p>
+                        <strong>— Marcus Lee, Marketing Director · Nova Apps</strong>
+                    </article>
+                    <article class="testimonial-card">
+                        <p>“Every detail was intentional. The design system Joseph built makes our content team’s job easier every single day.”</p>
+                        <strong>— Taryn Wallace, Head of Content · Vibe Media</strong>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Let’s shape your next big idea.</h2>
+                <p class="section-intro">Tell me about your project, timeline, and goals—I’ll respond within two business days with next steps.</p>
+                <div class="contact-card">
+                    <div>
+                        <h3>Start a project</h3>
+                        <p>hello@josephmartinez.design</p>
+                    </div>
+                    <ul>
+                        <li>Brand &amp; campaign audits</li>
+                        <li>One-week design sprints</li>
+                        <li>Ongoing creative partnerships</li>
+                    </ul>
+                    <a class="btn btn-primary" href="public/contact.html">Share your brief</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> Joseph Martinez · Graphic Design Studio</p>
+            <div class="social-links">
+                <a href="https://dribbble.com" target="_blank" rel="noopener">Dribbble</a>
+                <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
